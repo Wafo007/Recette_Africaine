@@ -1,0 +1,94 @@
+body{
+    background-size: 100%;
+    display: flex;
+    font-weight: bold;
+    position: absolute;
+    top:50% ;
+    left:50% ;
+    transform: translate(-50%, -50%);
+    background-image: url(pere.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.connect{
+    display: flex;
+}
+h1{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.body{
+    margin-left: 20px;
+}
+.marge{
+    margin: 10px;
+}
+.space{
+    padding: 20px;
+    padding-right: 292px;
+    text-align: center;
+}
+.btn{
+    margin-left: 200px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right:30px;
+    margin-top: 50px;
+    background-color: transparent;
+    color: #94f7e6;
+    font-weight: bold;
+    font-style: italic;
+    border: 1px solid transparent;
+    box-shadow: 10px 5px 8px #d3f7ff71;
+    border-radius: 50px;
+    outline: 2px solid #94f7e6;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+    margin-top: 70px;
+}
+input{
+    border-radius: 50px;
+    box-sizing: border-box;
+   /* box-shadow: 2px 5px 8px #d3f7ff71;        couleur pour le outline      */
+    outline: 1px solid yellowgreen;
+}
+span{
+    border-radius: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 2px 3px 8px #d3f7ff71;
+    outline: 2px solid #94f7e6;
+    font-style: italic;
+}
+img:hover{
+    opacity: 0.8;
+}
+img{
+    border-radius: 20px;
+    box-shadow: 2px 3px 8px #d3f7ff71;
+    outline: 2px solid #94f7e6;
+}
+input:hover{
+    transform:scale(1.05);
+}
+fieldset{
+    background-color: rgb(0 0 0 /50%);
+    color: transparent;
+    border-radius: 30px;
+    box-shadow: 2px 3px 8px #d3f7ff71;
+    outline: 2px solid #94f7e6;
+}
+.labe{
+    color:#94f7e6;
+}
+/*h1{
+    margin-bottom:50px;
+}*/
+span a{
+    color:#94f7e6;
+}

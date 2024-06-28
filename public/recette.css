@@ -1,0 +1,488 @@
+*{
+    box-sizing :border-box;
+    scroll-behavior: smooth;
+    margin: 0%;
+    padding: 0%;
+}
+
+/*---------Css de recette.html-----------*/
+
+/*----------------Css du header-----------*/
+header{
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+/*------------------Menu Collant--------------------*/
+header.sticky{
+    background: #272424;
+    padding: 10px 10px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.05);
+    font-size: larger;
+
+}
+
+nav ul{     
+    list-style-type: none; /*pour enlever les nombres sur les li de la nav barr*/     
+    display: flex;  
+    font-weight: bold;
+    margin-top: 3%;
+    position: relative;
+} 
+
+nav li{     
+    /*pour les espace entre le composant de la nav bar du cote gauche*/ 
+    margin-right: 30px;
+} 
+  
+nav a, strong{      
+    font-size: 20px;
+    color: #181818;      
+    padding-bottom: 3px;     
+    text-decoration:none; /*enleve les ligne sur les liens*/ 
+    color: whitesmoke;  
+}   
+
+nav{
+    margin-left: 38%;
+    display: flex;
+}
+
+#joinlink{
+    background-color: orangered;
+    padding: 5px 5px;
+}
+
+#joinlink:hover{
+    background-color: rgb(216, 87, 40);
+    transition:ease-in-out;
+}
+
+ul li a:hover{
+    border-bottom: 2px solid orangered;
+    color: orangered;
+}
+
+input[type="text"],button{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor:auto;
+}
+
+button{
+    cursor: pointer;
+}
+
+.Menu-Hambuger{
+    width: 30px;
+    display: none;   
+}
+
+/*------------Css du section1------------*/
+#baniere{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url(grilled-fish.jpg);
+    background-size: cover;
+   
+}
+
+#introduction{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 60%;
+    align-items: end;  
+    color:whitesmoke;
+    backdrop-filter: blur(8px);
+    height: 80vh;
+    position: absolute;
+    top: 15%;
+
+}
+
+#introduction h1,h2,h4{
+    text-transform: capitalize;
+}
+
+#pseudo {
+    margin-bottom: 2%;
+}
+
+/*------------Css du section2-------------*/
+#alignitems{
+    text-align: center;
+    margin-bottom: 7%;
+    font-size: xx-large;
+    margin-top: 5%;
+}
+#foodAcc{
+    position: fixed;
+}
+
+#alignfood {
+    display: flex;
+    position: relative;
+}
+
+p{
+    font-size: large;
+}
+
+.food,.container a {
+    font-family :Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+
+.cadre_des_images{
+    padding: 10px;
+    border: 1px solid white;
+    box-shadow:20px 15px 35px #181818;
+}
+
+span{
+    color: black;   
+}
+
+strong{
+    font-size: xx-large;
+    left: 0%;
+    top: 0%;
+}
+
+#copyright{
+    color: white;
+    display: flex;
+}
+
+footer ul{
+   display: flex; 
+   float: left;
+   justify-content: space-between;
+}
+
+footer ul li a img
+{
+   margin-left: 20px;
+   margin-top: 20px;
+   border-radius: 100%;
+}
+
+footer
+{
+    padding: 10px;
+    height: 190px;
+    background-color: #181818;
+    width: 100%;
+}
+
+footer #private{
+    margin-top: 4%;
+    text-align: center; 
+    color: white;
+}
+
+footer #private p a{
+    text-decoration: none;
+    color: white;
+    border-bottom : 2px solid white;
+}
+
+footer #private .ligneblanche{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top: 1px solid white;
+    width: 100%;   
+}
+
+
+
+/*-----------CSS de mais.html-------------*/
+
+.body_mets{
+    background-color: #fb911f;
+}
+
+#choosecountry{
+    margin-left: 35px;
+    margin-top: 9%;
+}
+
+#choosecountry,select,#rule,#pseudo{
+ text-align: center;
+ font-size: 30px;
+ font-weight: bold;
+}
+
+#Menu{
+    font-size: 90px;
+    color: black;
+    font-weight: lighter;
+}
+
+select{
+    border-radius: 10px;
+    width: 30%;
+    box-shadow:20px 15px 35px #181818;
+}
+.bgcolor{
+    background-color: wheat;
+}
+.container{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 20px;
+    width: fit-content;
+    margin-left: 170px;
+}
+
+.container :hover{
+    transform: scale(1.05);
+    transition: all 1.5s;
+    cursor: pointer;
+}
+
+.H1{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 1%;
+}
+.container a img{
+    width: 230px;
+    height: 230px;
+}
+/*---------- CSS de la page de l'equipe--------------*/
+
+#body_of_team{
+    background-color: wheat;
+}
+
+.AboutUs h1,h2{
+    text-align: center;
+}
+
+.AboutUs{
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 10%;
+    font-size: xx-large;
+    font-family:monospace;
+}
+
+.AboutUs p{
+    font-size: xx-large;
+}
+#images img{
+    width : 250px;
+    height : 250px; 
+    margin: 10px;
+    border-radius: 70%;
+}
+
+#image_container{
+    width: 640px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+
+}
+
+#images{
+    display: flex;
+    animation-duration: 18s;
+    animation-name: mesImages;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes mesImages {
+         0% {
+            transform: translateX(0);
+         }
+
+         100%{
+            transform: translateX(-1000px);
+         }
+}
+
+/*------------Code pour adapter le site a toust type appareil*/
+
+@media (max-width : 1006px)
+{
+    #alignfood {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+    section{
+        margin-top: 16%;
+    }
+    
+}
+
+@media (max-width: 1024px) {
+    .container {
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 20px;
+        width: fit-content;
+        margin-left: 16px;
+    }
+
+    .H1{
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 1%;
+    }
+    
+}
+
+/*---------Pour mettre le toogle button-------------*/
+@media (max-width: 1286px) {
+    nav{
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.315);
+        width: 100%;
+        height: 100vh;
+        top: 0; 
+        left: 0;
+        align-items:center;
+        backdrop-filter: blur(8px);
+        margin-left: 100%;
+        transition: all 0.5s;
+    }
+    nav ul{
+       display: flex;
+       flex-direction: column;
+      
+    }
+
+    .Menu-Hambuger{
+        display: block;
+        z-index: 1;
+    }
+
+    nav ul li {
+        margin: 25px; 
+        color: #272424;
+    }
+
+    /*impleter dans le js pour gerer les action du deroulage de la toogle*/
+    nav.mobile-menu{
+        margin-left: 0;
+    }
+
+    input[type="text"],button{
+        position: absolute;
+    }
+
+    input[type="text"]{
+        right: 130px;
+        top: 10px;
+        font-size: 20px;
+    }
+
+    button{
+        right: 60px;
+        top: 10px;
+        font-size: 20px;
+    }
+    nav ul li a{ 
+        color: #272424;
+    }
+}
+
+@media (max-width : 1222px){
+    #introduction{
+        position: absolute;
+        top: 20%;
+    }
+}
+
+/*---------media de recette.html font-ecran-------------*/
+@media(max-width : 1006px){
+    #baniere{
+         background-image: none;
+    }
+    .body_recette{
+        background-image: url(Background_introduction.jpg);
+        background-size: contain;
+        height: 10vh;
+        overflow: auto;
+    }
+    .section2{
+        background-color: whitesmoke;
+    }
+    #baniere #introduction{
+        color: white;
+        position: absolute;
+        top: 0;
+        height: 110vh;  
+        overflow: auto;
+        backdrop-filter: blur(8px);
+    }
+} 
+
+/*------------responsive du met.html----------*/
+@media (max-width : 1116px) {
+    .container{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        margin-left: 15%;
+    }
+
+    .container a img{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width : 647px) {
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}  
+
+/*-----------------------CSS du detaile.blade.php--------------------->*/
+
+#h1id{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 3.8em;
+}
+
+.posieleme{
+    width: 50%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    gap: 10px;
+    margin-left: 5%;
+}
+
+#body_detail{
+    background-color: wheat;
+}

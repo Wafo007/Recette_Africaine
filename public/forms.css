@@ -1,0 +1,123 @@
+
+body{
+    background-size: 100%;
+    display: flex;
+    font-weight: bold;
+    position: absolute;
+    top:50% ;
+    left:50% ;
+    transform: translate(-50%, -50%); 
+    background-image: url(mexicain.jpg);
+    background-position:  top ;
+    background-size: 100% ;
+    background-repeat: no-repeat;
+}
+
+.headers{
+   margin-right: 15%;
+   
+}
+
+.headers nav ul li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.headers nav ul li a{
+   color: black;
+   font-size: x-large;
+}
+
+.headers nav ul li a:hover{
+    border-bottom: 2px solid orangered;
+    color: orangered;
+}
+
+
+h1{
+    text-align: center;
+}
+.contener{
+    display: flex;
+}
+.connection{
+    display: flex;
+}
+.photo{
+    margin-right: 20px;
+}
+#first{
+    margin-right: 20px;
+}
+.space{
+    margin: 20px;
+}
+fieldset{
+    background-color: rgb(0 0 0 /50%);
+    color: transparent;
+    border-radius: 30px;
+    box-shadow: 2px 3px 8px #d3f7ff71;
+    outline: 2px solid #94f7e6;
+}
+.space2{
+    padding: 20px;
+}
+.spbtn{
+    padding: 15px;
+    margin-left: 190px;
+    padding-left: 55px;
+    padding-right: 55px;
+    background-color: transparent;
+    color: #94f7e6;
+    font-weight: bold;
+    font-style: italic;
+    border: 1px solid transparent;
+    box-shadow: 10px 5px 8px #d3f7ff71;
+    border-radius: 50px;
+    outline: 2px solid #94f7e6;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+    margin-top: 50px;
+   
+}
+.rspace{
+    padding-right: 292px;
+    text-align: center;
+    text-decoration-color: black;
+}
+a{
+    text-decoration: none;
+}
+.labe{
+    color:#94f7e6;
+}
+input{
+    border-radius: 50px;
+    box-sizing: border-box;
+   /* box-shadow: 2px 5px 8px #d3f7ff71;      couleur du outline   #94f7e6*/
+    outline: 1px solid yellowgreen;
+}
+span{
+    border-radius: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 2px 3px 8px #d3f7ff71;
+    outline: 2px solid #94f7e6;
+    font-style: italic;
+}
+span a{
+    color:#94f7e6;
+}
+img:hover{
+    opacity: 0.8;
+}
+img{
+    border-radius: 20px;
+    box-shadow: 2px 3px 8px #d3f7ff71;
+    outline: 2px solid #94f7e6;
+}
+input:hover{
+    transform:scale(1.05);
+}
